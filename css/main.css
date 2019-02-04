@@ -26,3 +26,16 @@
     width: 200px;
     height: 200px;
 }
+
+.sang {
+    position: relative;
+}
+
+.sang-p {
+    position: absolute;
+    font-size : 70px;
+    top: 80%;
+    left: 50%;
+    transform : translate(-50%, -80%);
+
+}
