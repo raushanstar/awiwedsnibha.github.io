@@ -4,19 +4,23 @@
     margin: 0;
 }
 
-.background {
-    position: absolute;
-}
-
-.background img{
+.back img {
+    position: fixed;
     width: 100%;
     height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
 }
 
 .description {
-    position: relative;
+    width: 100%;
+    position: absolute;
+}
+
+.ganesh img{
+    width: 100px;
+    height: 100px;
+}
+
+.kalash img {
+    width: 200px;
+    height: 200px;
 }
