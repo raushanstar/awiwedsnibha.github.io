@@ -2,9 +2,11 @@
 * { 
     padding: 0;
     margin: 0;
+    
+}
+.main {
     color: rgb(251, 255, 0);
 }
-
 .back img {
     position: fixed;
     width: 100%;
@@ -57,3 +59,86 @@
     left: 50%;
     transform : translate(-50%, -80%);
 }
+.writer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.writer p {
+    color: #111;
+    font-size: 35px;
+    font-family: 'Pacifico', cursive;
+}
+
+p span {
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    animation: animate 2s linear infinite;
+}
+ 
+p span:nth-child(1) {
+    animation-delay: 0s;
+}
+
+p span:nth-child(2) {
+    animation-delay: 0.25s;
+}
+
+p span:nth-child(3) {
+    animation-delay: 0.5s;
+}
+
+p span:nth-child(4) {
+    animation-delay: 0.75s;
+}
+
+p span:nth-child(5) {
+    animation-delay: 1s;
+}
+
+ 
+p span:nth-child(6) {
+    animation-delay: 1.25s;
+}
+
+p span:nth-child(7) {
+    animation-delay: 1.5s;
+}
+
+p span:nth-child(8) {
+    animation-delay: 1.75s;
+}
+
+p span:nth-child(9) {
+    animation-delay: 2s;
+}
+@keyframes animate {
+    0% {
+        color: rgb(255, 255, 255);
+        filter: blur(2px);
+        text-shadow: 0 0 10px #fff568f5,
+                    0 0 20px #fff568f5,
+                    0 0 40px #fff568f5,
+                    0 0 80px #fff568f5,
+                    0 0 120px #fff568f5,
+                    0 0 200px #fff568f5,
+                    0 0 300px #fff568f5,
+                    0 0 400px #fff568f5,
+                    0 0 500px #fff568f5
+                   
+    }
+
+    5%, 95% {
+        color: rgba(238, 255, 0, 0.247);
+        filter: blur(0px);
+        text-shadow: none;
+    }
+}
+
+.writer p >a, a:visited, a:hover, a:active {
+    text-decoration: none; 
+    color: transparent;
+}
+  
