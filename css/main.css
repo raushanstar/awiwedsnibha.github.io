@@ -118,20 +118,20 @@ p span:nth-child(9) {
     0% {
         color: rgb(255, 255, 255);
         filter: blur(2px);
-        text-shadow: 0 0 10px #fff568f5,
-                    0 0 20px #fff568f5,
-                    0 0 40px #fff568f5,
-                    0 0 80px #fff568f5,
-                    0 0 120px #fff568f5,
-                    0 0 200px #fff568f5,
-                    0 0 300px #fff568f5,
-                    0 0 400px #fff568f5,
-                    0 0 500px #fff568f5
+        text-shadow: 0 0 10px #ffee00,
+                    0 0 20px #ffee00,
+                    0 0 40px #ffee00,
+                    0 0 80px #ffee00,
+                    0 0 120px #ffee00,
+                    0 0 200px #ffee00,
+                    0 0 300px #ffee00,
+                    0 0 400px #ffee00,
+                    0 0 500px #ffee00
                    
     }
 
     5%, 95% {
-        color: rgba(238, 255, 0, 0.247);
+        color: rgba(251, 255, 38, 0.589);
         filter: blur(0px);
         text-shadow: none;
     }
