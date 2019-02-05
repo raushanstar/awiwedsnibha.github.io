@@ -17,6 +17,20 @@
     background-color: rgba(0, 0, 0, 0.452);
 }
 
+.heading {
+    font-size: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .heading {
+        font-size: 30px;
+    }
+
+    .mantra {
+        font-size: 18px;
+    }
+}
+
 .ganesh img{
     width: 100px;
     height: 100px;
@@ -38,6 +52,7 @@
 .sang-p {
     position: absolute;
     font-size : 70px;
+    font-weight: 800;
     top: 80%;
     left: 50%;
     transform : translate(-50%, -80%);
