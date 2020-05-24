@@ -1,1 +1,1 @@
-weeding card
+wedding card
